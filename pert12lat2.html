@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas pertemuan 21</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-wrap: wrap;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            width: 100%;
+            margin-bottom: 40px;
+            font-size: 2.5rem;
+        }
+        nav {
+            width: 100%;
+            background-color: #2E5077;  
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #ffffff;  
+            margin: 0 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #2E5077;  
+            color: #ffffff;
+        }
+        nav a.active {
+            background-color: #2E5077;  
+            color: #ffffff;
+        }
+        .phone-card {
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            background-color: #fff;
+            margin: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .phone-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+        .phone-card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        details {
+            padding: 15px;
+        }
+        summary {
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            color: #2E5077;
+            transition: color 0.3s ease;
+        }
+        summary:hover {
+            color: #2E5077;
+        }
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+            font-size: 1em;
+            list-style-type: disc;
+            color: #555;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Handphone Terbaik 2024</h1>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+    </nav>
+
+    <div class="phone-card">
+        <img src="assets/img/apple-iphone-16-pro-max.jpg" alt="iPhone 15 Pro Max">
+        <details>
+            <summary>Apple - iPhone 15 Pro Max</summary>
+            <ul>
+                <li>Display: 6.7-inch Super Retina XDR</li>
+                <li>Processor: A17 Bionic chip</li>
+                <li>Camera: 48 MP main, 12 MP ultra-wide, 12 MP telephoto</li>
+                <li>Battery: Up to 29 hours of video playback</li>
+                <li>OS: iOS 17</li>
+            </ul>
+        </details>
+    </div>
+
+    <div class="phone-card">
+        <img src="assets/img/samsung-galaxy-s24-ultra-5g-sm-s928-stylus.jpg" alt="Galaxy S23 Ultra">
+        <details>
+            <summary>Samsung - Galaxy S23 Ultra</summary>
+            <ul>
+                <li>Display: 6.8-inch Dynamic AMOLED 2X</li>
+                <li>Processor: Snapdragon 8 Gen 2</li>
+                <li>Camera: 200 MP main, 12 MP ultra-wide, 10 MP telephoto</li>
+                <li>Battery: 5000 mAh</li>
+                <li>OS: Android 13 with One UI</li>
+            </ul>
+        </details>
+    </div>
+
+    <div class="phone-card">
+        <img src="assets/img/google-pixel-9-pro-xl-.jpg" alt="Pixel 8 Pro">
+        <details>
+            <summary>Google - Pixel 8 Pro</summary>
+            <ul>
+                <li>Display: 6.7-inch LTPO OLED</li>
+                <li>Processor: Google Tensor G3</li>
+                <li>Camera: 50 MP main, 48 MP ultra-wide, 48 MP telephoto</li>
+                <li>Battery: 5050 mAh</li>
+                <li>OS: Android 14</li>
+            </ul>
+        </details>
+    </div>
+
+    <div class="phone-card">
+        <img src="assets/img/xiaomi-14-ultra-new.jpg" alt="Xiaomi 13 Ultra">
+        <details>
+            <summary>Xiaomi - 13 Ultra</summary>
+            <ul>
+                <li>Display: 6.73-inch AMOLED</li>
+                <li>Processor: Snapdragon 8 Gen 2</li>
+                <li>Camera: 50 MP quad-camera setup</li>
+                <li>Battery: 5000 mAh</li>
+                <li>OS: MIUI based on Android 13</li>
+            </ul>
+        </details>
+    </div>
+
+    <div class="phone-card">
+        <img src="assets/img/oneplus-13.jpg" alt="OnePlus 11 Pro">
+        <details>
+            <summary>OnePlus - 11 Pro</summary>
+            <ul>
+                <li>Display: 6.7-inch AMOLED</li>
+                <li>Processor: Snapdragon 8 Gen 2</li>
+                <li>Camera: 50 MP main, 48 MP ultra-wide, 32 MP telephoto</li>
+                <li>Battery: 5000 mAh</li>
+                <li>OS: OxygenOS based on Android 13</li>
+            </ul>
+        </details>
+    </div>
+</body>
+</html>
